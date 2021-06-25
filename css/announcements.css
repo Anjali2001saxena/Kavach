@@ -1,0 +1,41 @@
+/* NavbarcStarts */
+.navbar-1 {
+    background-color: darkslategrey;
+    color: white;
+    padding: 1% 5% 0.5% 2%;
+}
+.image-1 {
+    height: 100px;
+}
+.header-1, .para-1 {
+    margin-bottom: 0;
+}
+.for-color-1 {
+    color: white !important;
+    text-shadow: 2px 4px 3px #000000;
+}
+.for-color-1 :hover {
+    color: black !important;
+}
+/* Navbar Ends */
+.content {
+    margin: 3% 2% 5%;
+    height: 900px;
+}
+.card {
+    float: left;
+    margin-right: 2em;
+    margin-top: 2%;
+}
+/* footer starts */
+#footer {
+    padding: 1% 15% ;
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+  }
+  /* footer ends */
