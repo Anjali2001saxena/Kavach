@@ -1,0 +1,58 @@
+/* Navbar Starts */
+.navbar-1 {
+    background-color: darkslategrey;
+    color: white;
+    padding: 1% 5% 0.5% 2%;
+}
+.image-1 {
+    height: 100px;
+}
+.header-1, .para-1 {
+    margin-bottom: 0;
+}
+.for-color-1 {
+    color: white !important;
+    text-shadow: 2px 4px 3px #000000;
+}
+.for-color-1 :hover {
+    color: black !important;
+}
+/* Navbar Ends */
+.section-1 {
+	margin:5% 5% 5% 3%;
+}
+.form-1 input {
+	width:-webkit-fill-available;
+}
+.image-2 {
+	margin-top:5%;
+	margin-left: 10%;
+}
+.image-3 {
+	margin-top: 16%;
+}
+.image-4 {
+	display: block;
+    width: 100%;
+    margin-top: 8%;
+}
+.image-div {
+  float: right;
+}
+
+.for-color {
+    margin-left: 36%;
+}
+
+/* footer starts */
+#footer {
+    padding: 1% 15% ;
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+  }
+  /* footer ends */
