@@ -1,0 +1,81 @@
+/* NavbarcStarts */
+.navbar-1 {
+    background-color: darkslategrey;
+    color: white;
+    padding: 1% 5% 0.5% 2%;
+}
+.image-1 {
+    height: 100px;
+}
+.header-1, .para-1 {
+    margin-bottom: 0;
+}
+.for-color-1 {
+    color: white !important;
+    text-shadow: 2px 4px 3px #000000;
+}
+.for-color-1 :hover {
+    color: black !important;
+}
+/* Navbar Ends */
+.form-div {
+	float:left;
+}
+.image-div  {
+	float:left;
+	margin-top:5%;
+}
+.section-1 {
+	margin:5% 3% 5% 8%;
+}
+.section-2 {
+	margin-bottom:10%;
+	padding-top:5%;
+	clear:both;
+}
+.image-4 {
+	display: block;
+    width: 100%;
+    margin-top: 1%;
+    float:right;
+}
+.tables {
+	width:70%;
+	margin: 0 10%;
+	font-size: 20px;
+}
+.tables th {
+	padding-right:20px;
+	padding-left:20px;
+}
+.tables td {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+.tables tr:nth-child(even){background-color: #f2f2f2;}
+
+.tables tr:hover {background-color: #ddd;}
+
+
+.hello input {
+	width: -webkit-fill-available;
+}
+.input-2 {
+	height:100px;
+}
+
+/* footer starts */
+#footer {
+    padding: 1% 15% ;
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+  }
+  /* footer ends */
