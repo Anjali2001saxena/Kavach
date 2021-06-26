@@ -1,0 +1,80 @@
+/* NavbarcStarts */
+.navbar-1 {
+    background-color: darkslategrey;
+    color: white;
+    padding: 1% 5% 0.5% 2%;
+}
+.image-1 {
+    height: 100px;
+}
+.header-1, .para-1 {
+    margin-bottom: 0;
+}
+.for-color-1 {
+    color: white !important;
+    text-shadow: 2px 4px 3px #000000;
+}
+.for-color-1 :hover {
+    color: black !important;
+}
+.button-1 {
+	width:100px;
+	background-color:white;
+	color:black;
+}
+/* Navbar Ends */
+
+.table-1 {
+	/*margin-left:10%;*/
+	margin-top:5%;
+	margin-bottom:3%;
+}
+.table-2 {
+	/*margin-left:10%;*/
+	margin-top:5%;
+	margin-bottom:3%;
+}
+.tables {
+	margin-left:20%;
+}
+.tables th {
+	margin-right:10px;
+}
+.header-1 {
+	text-align:center;
+}
+.header-2 {
+	text-align:center;
+}
+.table-1 th {
+	padding-right:20px;
+	padding-left:20px;
+}
+.table-1 td {
+	padding-right:20px;
+	padding-left:20px;
+}
+.table-2 th {
+	padding-right:20px;
+	padding-left:20px;
+}
+.table-2 td {
+	padding-right:20px;
+	padding-left:20px;
+}
+.tables tr:nth-child(even){background-color: #f2f2f2;}
+
+.tables tr:hover {background-color: #ddd;}
+
+/* footer starts */
+#footer {
+    padding: 1% 15% ;
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+  }
+  /* footer ends */
