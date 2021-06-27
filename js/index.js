@@ -1,4 +1,4 @@
-const api_url = "https://corona.lmao.ninja/v2/countries/India?strict&query%20";
+var api_url = "https://corona.lmao.ninja/v2/countries/India?strict&query%20";
 
 async function getapi(url) {
 

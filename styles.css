@@ -1,0 +1,45 @@
+/* CSS for the homepage example index.html*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	height: 10vh;
+	line-height: 10vh;
+}
+
+main {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+h1 {
+	font-size: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: gray;
+	font-size: 14px;
+}
