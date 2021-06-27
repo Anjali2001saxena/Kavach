@@ -53,4 +53,4 @@ COVID Vaccine beneficiaries can share their experiences related to COVID vaccina
 
 ## RESOURCES
 - **Presentation Link** : https://1drv.ms/p/s!Ams4_xtTIau_hGiya3uLrLpsDB05?e=kmnfxQ
-- **Deployed Project Link** :
+- **Deployed Project Link** : https://spikypaint68.qoom.space/~/homepage
