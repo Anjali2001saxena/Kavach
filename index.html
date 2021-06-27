@@ -19,15 +19,14 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-    <!-- Google charts -->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src="js\index.js"></script>
-
+        <!-- Google charts -->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="js\index.js"></script>
   </head>
   <body>
       <!-- Navbar Starts -->
       <nav class="navbar-1 navbar navbar-expand-lg navbar-bg-dark navbar-dark">
-        <img class="image-1" src="images\logo.png" alt="Logo">
+        <img class="image-1" src="images\logo-1.jpeg" alt="Logo">
         <div>
          <h2 class="header-1">KAVACH</h2>
          <p class="para-1">Because Your Life Matters</p>
@@ -38,10 +37,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="list-1 navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="for-color-1 nav-link" href="index.html">Register As Volunteer</a>
+          <div class="dropdown show">
+            <a class="for-color-1 btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Vaccine Avalability
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="openvial.html">Open Vial</a>
+              <a class="dropdown-item" href="#">Close Vial</a>
+            </div>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="for-color-1 nav-link" href="index.html">Languages</a>
+          <a class="for-color-1 nav-link" href="CenterRegistration.html">Center Registration</a>
         </li>
       </ul>
     </div>
@@ -61,7 +69,7 @@
         
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <a class="dropdown-item" href="#">Our Mission & Impact</a>
-            <a class="dropdown-item" href="#">Announcements</a>
+            <a class="dropdown-item" href="announcements.html">Announcements</a>
             <a class="dropdown-item" href="#">Contact Us</a>
             <a class="dropdown-item" href="#">Team Members</a>
           </div>
@@ -86,15 +94,13 @@
           </a>
         
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="#">Vaccine Resources for Senior Citizens</a>
-            <a class="dropdown-item" href="#">Vaccine Resources for Community</a>
-            <a class="dropdown-item" href="#">Vaccine Resources for Specially Abled</a>
-            <a class="dropdown-item" href="#">Vaccine Resources for Pregnant Women</a>
+            <a class="dropdown-item" href="UserRegistration.html">Vaccine Resources for People with Special Needs</a>
+            <a class="dropdown-item" href="communityregisteration.html">Vaccine Resources for Community</a>
           </div>
         </div>
     </li>
     <li class="nav-item">
-      <a class="for-color-1 nav-link" href="index.html">Make A Local Impact</a>
+      <a class="for-color-1 nav-link" href="volunteerdashboard.html">Make A Local Impact</a>
     </li>
   <li class="nav-item">
     <a class="for-color-1 nav-link" href="index.html">Verify Certificate</a>
@@ -117,7 +123,8 @@
               <img class="image-2" src="images/main.PNG" alt="">
           </div>
       </section>
-      
+      <!-- Home Section Ends -->
+
       <div class="flex-container">
         <div class="flex-section">
           <h1 class="plot-heading">COVID CASES</h1>
@@ -128,7 +135,8 @@
           </div>
         </div>
       </div>
-      
+
+
       <section class="section-3">
         <h1 class="header-3"> <b> Questions </b> <span class="span-1">About COVID Vaccines</span> </h1>
         <h5 class="header-4">We understand that people have a lot of questions about vaccines.
